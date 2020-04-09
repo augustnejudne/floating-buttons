@@ -56,7 +56,7 @@ const Button = ({ number, handleClick }) => {
     if (top === 0) {
       setY(true);
     }
-  }, 1);
+  }, 10);
 
   const button = {
     top: top,
